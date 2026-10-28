@@ -1,0 +1,46 @@
+/* === BASE (Mobile) === */
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* Mobile nav — hamburger or stacked */
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Tablet (≥ 768px) === */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+}
+
+/* === Desktop (≥ 1024px) === */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* Add sidebar, multi-column layouts, etc. */
+}
+
+/* === Large Desktop (≥ 1280px) === */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
