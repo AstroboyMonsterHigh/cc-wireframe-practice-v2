@@ -93,10 +93,25 @@ body {
 }
 
 .card {
-  border: 1px solid blue;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card-image {
   width: 100px;
   height: auto;
+}
+
+.testimonial {
+  border: 1px solid blue;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.avatar {
+  width: 100px;
+  height: auto;
+  flex-direction: row;
 }
