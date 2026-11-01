@@ -92,6 +92,10 @@ body {
   border: 1px solid #ccc;
 }
 
+.card, .testimonial {
+  border: 1px red solid;
+}
+
 .card {
   display: flex;
   gap: 1rem;
@@ -99,19 +103,17 @@ body {
 }
 
 .card-image {
-  width: 100px;
+  width: 100%;
   height: auto;
 }
 
 .testimonial {
-  border: 1px solid blue;
   display: flex;
   gap: 1rem;
-  margin: 1rem;
 }
 
-.avatar {
-  width: 100px;
+.testimonial-avatar {
+  width: 10%;
   height: auto;
-  flex-direction: row;
+  border-radius: 50%;
 }
