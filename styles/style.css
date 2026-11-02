@@ -113,8 +113,8 @@ body {
 }
 
 .testimonial-avatar {
-  width: 10%;
-  height: auto;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
 }
 
@@ -122,15 +122,15 @@ body {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-}
-
-.footer-social a {
+    
+    a {
     border: 1px black solid;
     border-radius: 50%;
-}
-
-.footer-social img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
+    }
+    
+    img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
 }
