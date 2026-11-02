@@ -117,3 +117,20 @@ body {
   height: auto;
   border-radius: 50%;
 }
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footer-social a {
+    border: 1px black solid;
+    border-radius: 50%;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
