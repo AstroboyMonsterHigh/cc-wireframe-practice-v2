@@ -27,6 +27,16 @@ body {
   .nav {
     flex-direction: row;
   }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 
 /* === Desktop (≥ 1024px) === */
@@ -92,8 +102,8 @@ body {
   border: 1px solid #ccc;
 }
 
-.card, .testimonial {
-  border: 1px red solid;
+.header, .hero, .feature, .testimonial, .footer {
+  border: 10px purple solid;
 }
 
 .card {
