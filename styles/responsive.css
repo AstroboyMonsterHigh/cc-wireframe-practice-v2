@@ -4,18 +4,20 @@ body {
   font-size: 1rem;
   color: #333;
   background: #fff;
-}
 
-.container {
+  .container {
   width: 100%;
   padding: 0 1rem;
+  }
+
+  /* Mobile nav — hamburger or stacked */
+  .nav {
+
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-/* Mobile nav — hamburger or stacked */
-.nav {
-  display: flex;
-  flex-direction: column;
-}
 
 /* === Tablet (≥ 768px) === */
 @media (min-width: 768px) {
@@ -27,7 +29,18 @@ body {
   .nav {
     flex-direction: row;
   }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 }
+
 
 /* === Desktop (≥ 1024px) === */
 @media (min-width: 1024px) {
